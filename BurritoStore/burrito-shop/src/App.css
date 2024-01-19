@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap');
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;;
+  font-family: "Comfortaa";
+}
+
+.heading{
+  font-size: 3;
+  margin: 10px;
+  color: black;
+  z-index: 1;
+  text-align: center;
+}
+
+.nav{
+  font-family: "Comfortaa";
+  background-color: #ffffff;
+  box-shadow: 0 0 10px #b7b7b7;
+}
+
+.cart{
+  font-family: "Comfortaa";
+  background-color: #ffffff;
+}
+
+.cart-heading{
+  font-family: "Comfortaa";
+  font-size: 50px
+}
+
+.button{
+  background-color: #45a049;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Comfortaa";
+}
+
+.order-button{
+  background-color: #45a049;
+  color: white;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Comfortaa"
+}
+
+.order-button:hover {
+  background-color: #45a049;
+}
+
+.popup {
+  position: fixed;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  border-radius: 8px;
+  padding: 40px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  z-index: 1000;
+}
+
+.popup-content {
+  text-align: left;
+}
+
+.popup button {
+  background-color: #007bff;
+  color: white;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+  font-family: "Comfortaa"
+}
+
+.popup button:hover {
+  background-color: #005ec2;
+  color: white;
+  padding: 3px 8px;
+  border: none;
+  border-radius: 8px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.close {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  cursor: pointer;
+}
+/* Style for the checkbox */
+.popup-content label {
+  display: block;
+  margin-top: 10px;
+}
+
+.popup-content input[type="checkbox"] {
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.popup-content input[type="checkbox"] {
+  /* Add your custom styles here */
+  width: 20px;
+  height: 20px;
+  border: 1px solid #555;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.popup-content input[type="checkbox"]:checked {
+  background-color: #007bff; /* Change to your preferred color */
+  border-color: #007bff;
+  color: white;
+}
+
+@media (max-width: 800px){
+  .heading{
+    margin: 15px 0;
+    font-size: 35px;
+  }
+
+}

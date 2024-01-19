@@ -1,0 +1,23 @@
+[
+    {
+        "id" : 1,
+        "name" : "Chicken Burrito",
+        "price": 12.99,
+        "condiments" : [],
+        "imgUrl" : "/imgs/chicken.png"
+    },
+    {
+        "id" : 2,
+        "name" : "Steak Burrito",
+        "price": 12.99,
+        "condiments" : [],
+        "imgUrl" : "/imgs/steak.png"
+    },
+    {
+        "id" : 3,
+        "name" : "Vegetarian Burrito",
+        "price": 10.99,
+        "condiments" : [],
+        "imgUrl" : "/imgs/vegetarian.png"
+    }
+]
