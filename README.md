@@ -1,8 +1,11 @@
 # How to run from VS Code
+```
 cd burrito-shop
 npm run dev
+```
 
 # Installs
+```
 npm install react-router-dom bootstrap react-bootstrap
 npm install -save react-router
 npm -save react-router-dom
@@ -13,7 +16,7 @@ npm install react-scripts
 npm install react-router-dom   
 npm install react-router-dom bootstrap react-bootstrap  
 npm install --save-dev @types/node
-
+```
 
 # React + TypeScript + Vite
 
