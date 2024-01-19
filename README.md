@@ -3,6 +3,8 @@
 cd burrito-shop
 npm run dev
 ```
+Should run locally in browser
+
 
 # Installs
 ```
@@ -18,7 +20,7 @@ npm install react-router-dom bootstrap react-bootstrap
 npm install --save-dev @types/node
 ```
 
-# React + TypeScript + Vite
+## React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
